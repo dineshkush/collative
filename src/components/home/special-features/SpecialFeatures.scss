@@ -1,0 +1,20 @@
+.special_features_sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .feature_item {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        img {
+            height: 240px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 15px;
+        }
+        h4 {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.main_header {
+    background-color: #0C1420;
+    .navbar {
+        padding: 20px 0px;
+        .navbar-brand {
+            img {
+                width: 200px;
+            }
+        }
+        .navbar-nav {
+            padding-left: 0px;
+            .nav-item {
+                a {
+                    color: #fff;
+                    padding: 10px 23px;
+                    font-style: italic;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    
+    .header_btn {
+        .border_btn {
+            margin-right: 6px;
+            border-color: #fff;
+            color: #fff;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main_header {
+        .navbar {
+            .navbar-brand {
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+}
