@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/collative/static/css/main.18bc76f9.css",
-    "main.js": "/collative/static/js/main.93203f2e.js",
+    "main.css": "/collative/static/css/main.f7d1bcdc.css",
+    "main.js": "/collative/static/js/main.c614054a.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
     "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.32e238d838a81e511a39.jpg",
@@ -23,12 +23,12 @@
     "static/media/testi4.jpg": "/collative/static/media/testi4.ea9089bd29360551db8a.jpg",
     "static/media/testi2.jpg": "/collative/static/media/testi2.5da94cbcf5ac6626dd65.jpg",
     "index.html": "/collative/index.html",
-    "main.18bc76f9.css.map": "/collative/static/css/main.18bc76f9.css.map",
-    "main.93203f2e.js.map": "/collative/static/js/main.93203f2e.js.map",
+    "main.f7d1bcdc.css.map": "/collative/static/css/main.f7d1bcdc.css.map",
+    "main.c614054a.js.map": "/collative/static/js/main.c614054a.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18bc76f9.css",
-    "static/js/main.93203f2e.js"
+    "static/css/main.f7d1bcdc.css",
+    "static/js/main.c614054a.js"
   ]
 }
