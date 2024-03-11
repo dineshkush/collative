@@ -34,7 +34,7 @@ const Footer = (props) => {
 
   const quickLinks = [
     {
-      url: "/",
+      url: "/contact-us",
       name: "Contact Us",
     },
     {
@@ -66,29 +66,6 @@ const Footer = (props) => {
     }
   ]
 
-  const footerSM = [
-    {
-      icon: <i class="fa-brands fa-facebook-f"></i>,
-      url: "/"
-    },
-    {
-      icon: <i class="fa-brands fa-instagram"></i>,
-      url: "/"
-    },
-    {
-      icon: <i class="fa-brands fa-twitter"></i>,
-      url: "/"
-    },
-    {
-      icon: <i class="fa-brands fa-linkedin-in"></i>,
-      url: "/"
-    },
-    {
-      icon: <i class="fa-brands fa-youtube"></i>,
-      url: "/"
-    }
-  ]
-
   return (
     <footer className='main_footer'>
         <div className="container-fluid">
@@ -96,7 +73,7 @@ const Footer = (props) => {
             <div className="row">
               <div className="col-md-4">
                 <div className="footer_about">
-                  <img src={props.logo} alt="Logo" className='img-fluid' />
+                  <Link to="/"><img src={props.logo} alt="Logo" className='img-fluid' /></Link>
                   <p>Welcome to Collative -where your workday is elevated, and success is a shared journey we redefines workspace luxury. Melding sophistication with functionality,  provides a curated environment where productivity meets tranquility. Tailored for the modern professional.</p>
                 </div>
               </div>
@@ -131,7 +108,7 @@ const Footer = (props) => {
             <div className="row align-items-center">
               <div className="col-md-4">
                 <ul className='footer_sm'>
-                  {footerSM.map((item) => 
+                  {props.smLinks.map((item) => 
                     <li><Link to={item.url}>{item.icon}</Link></li>
                   )}
                 </ul>

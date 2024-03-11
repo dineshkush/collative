@@ -1,0 +1,48 @@
+.contact_banner {
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact_item {
+    margin-top: 30px;
+    i {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        background-color: #000;
+        line-height: 35px;
+        color: #fff;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    .contactsm {
+        margin-bottom: 0px;
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            i {
+                background-color: rgba(0, 0, 0, 0.05);
+                color: #000;
+                border: 1px solid;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
