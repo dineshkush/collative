@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Contact.scss"
 import ContactBanner from './contact-banner/ContactBanner'
+import LocationDistance from '../location-distance/LocationDistance'
+import CallToAction from '../main/call-to-action/CallToAction'
 
 const Contact = (props) => {
   return (
@@ -15,6 +17,9 @@ const Contact = (props) => {
           </div>
         </div>
       </section>
+
+      <LocationDistance logo={props.logo} />
+      <CallToAction />
     </>
   )
 }

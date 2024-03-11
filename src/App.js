@@ -7,6 +7,7 @@ import Footer from './components/main/footer/Footer';
 import logo from "./images/collative-logo.png";
 import Contact from './components/contact/Contact';
 import ScrollToTop from './scrollToTop';
+import AboutUs from './components/about-us/AboutUs';
 
 function App() {
 
@@ -46,7 +47,8 @@ function App() {
     <Header phone={contactDetail.phone} logo={logo} />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/contact-us" element={<Contact contactDetail={contactDetail} smLinks={smLinks} />} />
+        <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/contact-us" element={<Contact logo={logo} contactDetail={contactDetail} smLinks={smLinks} />} />
       </Routes>
     <Footer phone={contactDetail.phone} phone2={contactDetail.phone2} address={contactDetail.address} email={contactDetail.email} logo={logo} smLinks={smLinks} />
     </>

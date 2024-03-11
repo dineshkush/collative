@@ -1,0 +1,57 @@
+.distance_sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0C1420;
+    .distance_list {
+        display: flex;
+        align-items: center;
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+            top: 60px;
+            left: 0;
+            right: 0;
+        }
+        .dist_item {
+            text-align: center;
+            color: #fff;
+            padding: 0px 15px;
+            h4 {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 13px;
+                    height: 13px;
+                    background-color: #000;
+                    border: 4px solid #fff;
+                    border-radius: 50%;
+                    bottom: -7px;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                }
+            }
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 0;
+            }
+        }
+        .dist_img {
+            img {
+                width: 240px;
+                background-color: #0C1420;
+                position: relative;
+            }
+        }
+    }
+}

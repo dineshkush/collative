@@ -50,7 +50,7 @@ const Footer = (props) => {
       name: "Offerings",
     },
     {
-      url: "/",
+      url: "/about-us",
       name: "About Us",
     }
   ]
