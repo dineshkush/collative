@@ -43,6 +43,9 @@ body {
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1120px;
 }
+.white_text {
+    color: #fff;
+}
 h2 {
     font-size: 30px;
     line-height: 40px;

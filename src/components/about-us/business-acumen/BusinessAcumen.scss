@@ -1,0 +1,63 @@
+.business_acumen_sec {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F4F4F4;
+    .business_acumen_list {
+        position: relative;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 100%;
+            background-color: #0C1420;
+            top: 0;
+            left: 50%;
+        }
+        .row {
+            margin: 40px 0px;
+            .col-md-6 {
+                position: relative;
+                &:first-child:before {
+                    content: "";
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #fff;
+                    border: 4px solid #0C1420;
+                    border-radius: 50%;
+                    top: 50%;
+                    right: -7px;
+                }
+                .content {
+                    border: 1px solid #0C1420;
+                    padding: 30px 30px;
+                    border-radius: 20px;
+                    background-color: #fff;
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin: 0px 45px;
+                    transition: all 0.5s;
+                    &:hover {
+                        background-color: #0C1420;
+                        p {
+                            color: #fff;
+                        }
+                    }
+                    p {
+                        margin-bottom: 0px;
+                    }
+                }
+                .img {
+                    margin: 0px 45px;
+                    img {
+                        max-height: 270px;
+                        border: 1px solid #0C1420;
+                        border-radius: 20px;
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

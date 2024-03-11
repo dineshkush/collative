@@ -1,0 +1,19 @@
+.exclusive_features_sec {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color: #0C1420;
+    .feature_item {
+        padding: 30px 45px;
+        img {
+            width: 42px;
+            min-height: 42px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+        h4 {
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 0px;
+        }
+    }
+}
