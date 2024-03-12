@@ -32,12 +32,21 @@ const MainBanner = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={bannerImage} className="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>The Largest co-working space in the heart of south delhi.</h5>
+            </div>
           </div>
           <div className="carousel-item">
             <img src={bannerImage} className="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>The Largest co-working space in the heart of south delhi.</h5>
+            </div>
           </div>
           <div className="carousel-item">
             <img src={bannerImage} className="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>The Largest co-working space in the heart of south delhi.</h5>
+            </div>
           </div>
         </div>
         {/* <button
@@ -60,9 +69,9 @@ const MainBanner = () => {
         </button> */}
       </div>
 
-        <div className="banner_form">
+      <div className="banner_form">
         <ContactForm />
-        </div>
+      </div>
       
     </section>
   );

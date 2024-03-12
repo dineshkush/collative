@@ -76,24 +76,6 @@ const CustomSolutionsSlider = () => {
                 <p>{slideItem.content}</p>
             </div>
         )}
-        {/* <div className="customSolution-item">
-            Dinesh
-        </div>
-        <div className="customSolution-item">
-            Dinesh
-        </div>
-        <div className="customSolution-item">
-            Dinesh
-        </div>
-        <div className="customSolution-item">
-            Dinesh
-        </div>
-        <div className="customSolution-item">
-            Dinesh
-        </div>
-        <div className="customSolution-item">
-            Dinesh
-        </div> */}
       </Slider>
     </div>
   );

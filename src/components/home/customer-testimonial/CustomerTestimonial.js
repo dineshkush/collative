@@ -1,11 +1,34 @@
 import React from 'react'
 import "./CustomerTestimonial.scss"
+import Slider from "react-slick";
 import profile1 from "../../../images/testi1.jpg";
 import profile2 from "../../../images/testi2.jpg";
 import profile3 from "../../../images/testi3.jpg";
 import profile4 from "../../../images/testi4.jpg";
 
 const CustomerTestimonial = () => {
+
+    const testiSlider = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        draggable: true,
+        centerMode: false,
+        centerPadding: "0",
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerMode: true,
+              dots: true,
+            },
+          },
+        ],
+      };
     
     const customerTestimonial = [
         {
@@ -47,13 +70,32 @@ const CustomerTestimonial = () => {
       <div className="container">
         <div className="row">
             <div className="col-md-12 text-center">
-                <h3>Customer <span className='underline_text'>Testimonial</span></h3>
-                <p>Hear what our customers love about us real stories,</p>
+                <h3>See What <span className='underline_text'>Our clients Say</span></h3>
+                <p>Hear what our customers love about us real stories</p>
             </div>
         </div>
 
         <div className="row">
-            {customerTestimonial.map((item) =>
+            <div className="col-md-12">
+                <div className="testimonials_slider">
+                    <Slider {...testiSlider}>
+                        {customerTestimonial.map((item) =>
+                            <div className="testi_item">
+                                <div className="comment">
+                                    <h5>{item.tagline}</h5>
+                                    <p>{item.comment}</p>
+                                </div>
+                                <div className="testi-foot">
+                                    <img src={item.img} className='img-fluid' alt={item.name} />
+                                    <h6>{item.name}</h6>
+                                    <p>{item.location}</p>
+                                </div>
+                            </div>
+                        )}
+                    </Slider>
+                </div>
+            </div>
+            {/* {customerTestimonial.map((item) =>
                 <div className="col-md-6">
                     <div className="testi_item">
                         <div className="comment">
@@ -67,7 +109,7 @@ const CustomerTestimonial = () => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
       </div>
     </section>

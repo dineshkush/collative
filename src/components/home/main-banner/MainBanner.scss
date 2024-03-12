@@ -1,7 +1,35 @@
 .main_banner {
     position: relative;
+    .carousel-caption {
+        position: absolute;
+        right: auto;
+        bottom: auto;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: left;
+        top: 32%;
+        width: 40%;
+        h5 {
+            font-size: 40px;
+            line-height: 55px;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+    }
     .carousel-item {
         height: 615px;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
         img {
             height: 615px;
             object-fit: cover;
@@ -9,8 +37,8 @@
     }
     .banner_form {
         position: absolute;
-        top: 100px;
-        right: 120px;
+        top: 70px;
+        right: 14%;
         width: 25%;
     }
 }
