@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/collative/static/css/main.0850c380.css",
-    "main.js": "/collative/static/js/main.b39b38d3.js",
+    "main.css": "/collative/static/css/main.2a8517b5.css",
+    "main.js": "/collative/static/js/main.80e99ceb.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
+    "static/media/banner-img3.jpg": "/collative/static/media/banner-img3.dc4b4d5397f234f46c54.jpg",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
     "static/media/about-banner.jpg": "/collative/static/media/about-banner.7648ea75570f56286d39.jpg",
     "static/media/private-cabin-service.jpg": "/collative/static/media/private-cabin-service.2a27c0a391dd128af869.jpg",
     "static/media/interview-rooms-banner.jpg": "/collative/static/media/interview-rooms-banner.3353a36922feb673f1e5.jpg",
     "static/media/services-banner.jpg": "/collative/static/media/services-banner.dc254b4cf5bd8673038d.jpg",
+    "static/media/hot-desks-banner.jpg": "/collative/static/media/hot-desks-banner.bbcd850570bfbcfcce36.jpg",
+    "static/media/banner-img2.jpg": "/collative/static/media/banner-img2.c5168bc9326205b08032.jpg",
     "static/media/Conference-room-img.jpg": "/collative/static/media/Conference-room-img.c38334b49b66d9c6eb62.jpg",
     "static/media/BusinessAcumen-img2.jpg": "/collative/static/media/BusinessAcumen-img2.2f76a0a14482084169b7.jpg",
-    "static/media/hot-desks-banner.jpg": "/collative/static/media/hot-desks-banner.d03805af08f6b3d183c5.jpg",
     "static/media/BusinessAcumen-img3.jpg": "/collative/static/media/BusinessAcumen-img3.7adb466fcfba67cd2e90.jpg",
     "static/media/meeting-rooms-banner.jpg": "/collative/static/media/meeting-rooms-banner.42eb16b7e6e0749c6560.jpg",
     "static/media/BusinessAcumen-img1.jpg": "/collative/static/media/BusinessAcumen-img1.1193b3f48bf9c1c62ebf.jpg",
@@ -32,20 +34,20 @@
     "static/media/conference-hall-img.jpg": "/collative/static/media/conference-hall-img.109845284f25384b76e9.jpg",
     "static/media/self-service-counter.jpg": "/collative/static/media/self-service-counter.5c03e214f694cf9b78f1.jpg",
     "static/media/shared-workspace-img.jpg": "/collative/static/media/shared-workspace-img.f05b21497bc430aa6a1a.jpg",
-    "static/media/phone-booth.jpg": "/collative/static/media/phone-booth.0265b440ab928682e506.jpg",
+    "static/media/phone-booth.jpg": "/collative/static/media/phone-booth.673ba714d2c205d6a29f.jpg",
+    "static/media/collative-logo-review.png": "/collative/static/media/collative-logo-review.b3ebee3ca721ebc07197.png",
     "static/media/rajdarbar-logo.png": "/collative/static/media/rajdarbar-logo.d2b868ee6a33b0d65ac1.png",
+    "static/media/brac-logo.jpeg": "/collative/static/media/brac-logo.3fa02b95a9ecaf0a0634.jpeg",
     "static/media/collative-logo.png": "/collative/static/media/collative-logo.c201c51665ba12a5dc0d.png",
-    "static/media/testi1.jpg": "/collative/static/media/testi1.ff1f3a9958facaff365e.jpg",
-    "static/media/testi3.jpg": "/collative/static/media/testi3.be3c02234801e8bc5092.jpg",
-    "static/media/testi4.jpg": "/collative/static/media/testi4.ea9089bd29360551db8a.jpg",
-    "static/media/testi2.jpg": "/collative/static/media/testi2.5da94cbcf5ac6626dd65.jpg",
+    "static/media/neo-logo.jpeg": "/collative/static/media/neo-logo.0cd3b06ffeb198bc80df.jpeg",
+    "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
-    "main.0850c380.css.map": "/collative/static/css/main.0850c380.css.map",
-    "main.b39b38d3.js.map": "/collative/static/js/main.b39b38d3.js.map",
+    "main.2a8517b5.css.map": "/collative/static/css/main.2a8517b5.css.map",
+    "main.80e99ceb.js.map": "/collative/static/js/main.80e99ceb.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0850c380.css",
-    "static/js/main.b39b38d3.js"
+    "static/css/main.2a8517b5.css",
+    "static/js/main.80e99ceb.js"
   ]
 }
