@@ -27,19 +27,19 @@ const OfferingsService = () => {
     },
     {
       name: "Interview Rooms",
-      location: "",
+      location: "InterviewRooms",
     },
     {
-      name: "Meeting rooms",
-      location: "",
+      name: "Meeting Rooms",
+      location: "MeetingRooms",
     },
     {
-      name: "Hot desks",
-      location: "",
+      name: "Hot Desks",
+      location: "HotDesks",
     },
     {
-      name: "Event spaces",
-      location: "",
+      name: "Event Spaces",
+      location: "EventSpaces",
     },
   ];
 

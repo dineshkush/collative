@@ -6,6 +6,7 @@
         display: flex;
         align-items: center;
         position: relative;
+        justify-content: center;
         &:before {
             content: "";
             position: absolute;
