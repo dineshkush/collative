@@ -47,8 +47,8 @@ const SpecialFeatures = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center">
-                    <h3>Access special features <span className='underline_text'>exclusively</span>.</h3>
-                    <p>Experience Unparalleled Coworking Amenities for Enhanced Productivity and a Touch of Luxury.</p>
+                    <h3>Our <span className='underline_text'>Amenites</span></h3>
+                    <p>Experience Unparalleled Co-working Amenities for Enhanced Productivity and a Touch of Luxury.</p>
                 </div>
             </div>
 

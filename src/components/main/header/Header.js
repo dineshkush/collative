@@ -12,7 +12,7 @@ const Header = (props) => {
     {
       id: 2,
       name: "Offerings",
-      url: "/",
+      url: "/offerings",
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ const Header = (props) => {
               </ul>
               <div className="header_btn">
                 <Link to={`tel:${props.phone}`} className="border_btn">{props.phone}</Link>
-                <Link to="/" className="white_btn">Get Started</Link>
+                <Link to="/" className="white_btn">Enquire Now</Link>
               </div>
             </div>
           </div>

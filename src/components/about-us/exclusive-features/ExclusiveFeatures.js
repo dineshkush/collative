@@ -56,7 +56,7 @@ const ExclusiveFeatures = () => {
       <div className="container">
         <div className="row">
             <div className="col-md-12 text-center white_text">
-                <h3>Revel in <span className='underline_text'>exclusive features</span></h3>
+                <h3><span className='underline_text'>Amenities</span></h3>
                 <p>Experience the joy of distinctive and exclusive features.</p>
             </div>
         </div>

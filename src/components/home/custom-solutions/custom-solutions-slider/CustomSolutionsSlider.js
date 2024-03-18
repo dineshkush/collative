@@ -35,31 +35,31 @@ const CustomSolutionsSlider = () => {
         id: 1,
         img: AtriumEvents,
         name: "Atrium for Events",
-        content: "Elevate Occasions with Atrium's Unmatched Event Hosting and Management Expertise.",
+        // content: "Elevate Occasions with Atrium's Unmatched Event Hosting and Management Expertise.",
     },
     {
         id: 1,
         img: InterviewRooms,
         name: "Interview Rooms",
-        content: "Where Professional Stories Unfold and Careers Take Flight.",
+        // content: "Where Professional Stories Unfold and Careers Take Flight.",
     },
     {
         id: 1,
         img: SharedWorkspace,
         name: "Shared Workspace",
-        content: "Elevate Productivity in Our Dynamic and Shared Workspace Environment",
+        // content: "Elevate Productivity in Our Dynamic and Shared Workspace Environment",
     },
     {
         id: 1,
         img: MeetingRooms,
         name: "Meeting Rooms",
-        content: "Transformative Meeting Rooms Tailored to Boost Productivity.",
+        // content: "Transformative Meeting Rooms Tailored to Boost Productivity.",
     },
     {
         id: 1,
         img: ConferenceHall,
         name: "Conference Hall",
-        content: "Elevate Your Events in Our State-of-the-Art Conference Hall.",
+        // content: "Elevate Your Events in Our State-of-the-Art Conference Hall.",
     }
   ]
 
@@ -73,7 +73,7 @@ const CustomSolutionsSlider = () => {
                     <img src={slideItem.img} className="img-fluid" alt={slideItem.name} />
                     <h4>{slideItem.name}</h4>
                 </div>
-                <p>{slideItem.content}</p>
+                {/* <p>{slideItem.content}</p> */}
             </div>
         )}
       </Slider>
