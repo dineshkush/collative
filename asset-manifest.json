@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/collative/static/css/main.e2cbc543.css",
-    "main.js": "/collative/static/js/main.5be6a05d.js",
+    "main.css": "/collative/static/css/main.be35144d.css",
+    "main.js": "/collative/static/js/main.6707b857.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
     "static/media/banner-img3.jpg": "/collative/static/media/banner-img3.dc4b4d5397f234f46c54.jpg",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
-    "static/media/about-banner.jpg": "/collative/static/media/about-banner.7648ea75570f56286d39.jpg",
     "static/media/private-cabin-service.jpg": "/collative/static/media/private-cabin-service.2a27c0a391dd128af869.jpg",
     "static/media/interview-rooms-banner.jpg": "/collative/static/media/interview-rooms-banner.3353a36922feb673f1e5.jpg",
     "static/media/services-banner.jpg": "/collative/static/media/services-banner.dc254b4cf5bd8673038d.jpg",
     "static/media/hot-desks-banner.jpg": "/collative/static/media/hot-desks-banner.bbcd850570bfbcfcce36.jpg",
+    "static/media/about-banner.jpg": "/collative/static/media/about-banner.021aba63e3010d25aa9e.jpg",
     "static/media/banner-img2.jpg": "/collative/static/media/banner-img2.c5168bc9326205b08032.jpg",
     "static/media/Conference-room-img.jpg": "/collative/static/media/Conference-room-img.c38334b49b66d9c6eb62.jpg",
     "static/media/BusinessAcumen-img2.jpg": "/collative/static/media/BusinessAcumen-img2.2f76a0a14482084169b7.jpg",
@@ -23,18 +23,18 @@
     "static/media/choose-step1.jpg": "/collative/static/media/choose-step1.dd9c3cd3ac77c70ff7ab.jpg",
     "static/media/cafeteria-img.jpg": "/collative/static/media/cafeteria-img.3eaefdbbea33d223d7a4.jpg",
     "static/media/choose-step3.jpg": "/collative/static/media/choose-step3.de5b0e5bfa8f847f7b9c.jpg",
+    "static/media/cta-backgroung.jpg": "/collative/static/media/cta-backgroung.679ecfcbb7d41982b72c.jpg",
     "static/media/podcast-studio.jpg": "/collative/static/media/podcast-studio.83ab789d04049c5abb4b.jpg",
-    "static/media/cta-backgroung.jpg": "/collative/static/media/cta-backgroung.343396f7b0e2fc5a85ea.jpg",
     "static/media/communal-area.jpg": "/collative/static/media/communal-area.8ddcbfafadbc495fc68f.jpg",
     "static/media/atrium-for-events-img.jpg": "/collative/static/media/atrium-for-events-img.85dae0ed786dbf95224d.jpg",
     "static/media/gaming-room.jpg": "/collative/static/media/gaming-room.837e900314809e183d49.jpg",
     "static/media/choose-step2.jpg": "/collative/static/media/choose-step2.5e8895376093269a9e9f.jpg",
     "static/media/interview-rooms-img.jpg": "/collative/static/media/interview-rooms-img.2a398ac0c73370920040.jpg",
+    "static/media/phone-booth.jpg": "/collative/static/media/phone-booth.737d5209d6de9449a905.jpg",
     "static/media/meeting-rooms-img.jpg": "/collative/static/media/meeting-rooms-img.9d5f3144f62fd1eca29e.jpg",
     "static/media/conference-hall-img.jpg": "/collative/static/media/conference-hall-img.109845284f25384b76e9.jpg",
     "static/media/self-service-counter.jpg": "/collative/static/media/self-service-counter.5c03e214f694cf9b78f1.jpg",
     "static/media/shared-workspace-img.jpg": "/collative/static/media/shared-workspace-img.f05b21497bc430aa6a1a.jpg",
-    "static/media/phone-booth.jpg": "/collative/static/media/phone-booth.673ba714d2c205d6a29f.jpg",
     "static/media/collative-logo-review.png": "/collative/static/media/collative-logo-review.b3ebee3ca721ebc07197.png",
     "static/media/rajdarbar-logo.png": "/collative/static/media/rajdarbar-logo.d2b868ee6a33b0d65ac1.png",
     "static/media/brac-logo.jpeg": "/collative/static/media/brac-logo.3fa02b95a9ecaf0a0634.jpeg",
@@ -42,12 +42,12 @@
     "static/media/neo-logo.jpeg": "/collative/static/media/neo-logo.0cd3b06ffeb198bc80df.jpeg",
     "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
-    "main.e2cbc543.css.map": "/collative/static/css/main.e2cbc543.css.map",
-    "main.5be6a05d.js.map": "/collative/static/js/main.5be6a05d.js.map",
+    "main.be35144d.css.map": "/collative/static/css/main.be35144d.css.map",
+    "main.6707b857.js.map": "/collative/static/js/main.6707b857.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2cbc543.css",
-    "static/js/main.5be6a05d.js"
+    "static/css/main.be35144d.css",
+    "static/js/main.6707b857.js"
   ]
 }
