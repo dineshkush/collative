@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/collative/static/css/main.2a8517b5.css",
-    "main.js": "/collative/static/js/main.da68a93b.js",
+    "main.css": "/collative/static/css/main.e2cbc543.css",
+    "main.js": "/collative/static/js/main.5be6a05d.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
     "static/media/banner-img3.jpg": "/collative/static/media/banner-img3.dc4b4d5397f234f46c54.jpg",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
@@ -17,9 +17,9 @@
     "static/media/meeting-rooms-banner.jpg": "/collative/static/media/meeting-rooms-banner.42eb16b7e6e0749c6560.jpg",
     "static/media/BusinessAcumen-img1.jpg": "/collative/static/media/BusinessAcumen-img1.1193b3f48bf9c1c62ebf.jpg",
     "static/media/service-tab.jpg": "/collative/static/media/service-tab.f4a6827b4e6481bb2f9c.jpg",
+    "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.e58dbdbbf4bc26cac1e4.jpg",
     "static/media/Shared-Workspace-banner.jpg": "/collative/static/media/Shared-Workspace-banner.f1bf1579919bbb5fa07c.jpg",
     "static/media/collative-front-img.jpg": "/collative/static/media/collative-front-img.1320e167cd1452bae652.jpg",
-    "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.32e238d838a81e511a39.jpg",
     "static/media/choose-step1.jpg": "/collative/static/media/choose-step1.dd9c3cd3ac77c70ff7ab.jpg",
     "static/media/cafeteria-img.jpg": "/collative/static/media/cafeteria-img.3eaefdbbea33d223d7a4.jpg",
     "static/media/choose-step3.jpg": "/collative/static/media/choose-step3.de5b0e5bfa8f847f7b9c.jpg",
@@ -42,12 +42,12 @@
     "static/media/neo-logo.jpeg": "/collative/static/media/neo-logo.0cd3b06ffeb198bc80df.jpeg",
     "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
-    "main.2a8517b5.css.map": "/collative/static/css/main.2a8517b5.css.map",
-    "main.da68a93b.js.map": "/collative/static/js/main.da68a93b.js.map",
+    "main.e2cbc543.css.map": "/collative/static/css/main.e2cbc543.css.map",
+    "main.5be6a05d.js.map": "/collative/static/js/main.5be6a05d.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a8517b5.css",
-    "static/js/main.da68a93b.js"
+    "static/css/main.e2cbc543.css",
+    "static/js/main.5be6a05d.js"
   ]
 }
