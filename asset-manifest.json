@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/collative/static/css/main.be35144d.css",
-    "main.js": "/collative/static/js/main.2508ac7c.js",
+    "main.js": "/collative/static/js/main.e34bdc5a.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
     "static/media/banner-img3.jpg": "/collative/static/media/banner-img3.dc4b4d5397f234f46c54.jpg",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
@@ -43,11 +43,11 @@
     "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
     "main.be35144d.css.map": "/collative/static/css/main.be35144d.css.map",
-    "main.2508ac7c.js.map": "/collative/static/js/main.2508ac7c.js.map",
+    "main.e34bdc5a.js.map": "/collative/static/js/main.e34bdc5a.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be35144d.css",
-    "static/js/main.2508ac7c.js"
+    "static/js/main.e34bdc5a.js"
   ]
 }
