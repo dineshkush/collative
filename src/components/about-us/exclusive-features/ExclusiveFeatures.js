@@ -15,19 +15,19 @@ const ExclusiveFeatures = () => {
     const ExclusiveFeaturesList = [
         {
             icon: icon1,
-            name: "Dedicated Workstation & Lockers"
+            name: "Dedicated Workstation"
         },
         {
             icon: icon2,
-            name: "Doctor-on-call facility available for medical needs"
+            name: "Timely disinfection by sanitization"
         },
         {
             icon: icon3,
-            name: "Phone booths for undisturbing business calls"
+            name: "Phone booths for business calls"
         },
         {
             icon: icon4,
-            name: "Rejuvenating cafeteria & coffee kiosks"
+            name: "Equipped with super fast internet"
         },
         {
             icon: icon5,
@@ -39,15 +39,15 @@ const ExclusiveFeatures = () => {
         },
         {
             icon: icon7,
-            name: "Best in class data connectivity"
+            name: "Transportation connectivity"
         },
         {
             icon: icon8,
-            name: "Expeditious customer assistance"
+            name: "Power Backup Available"
         },
         {
             icon: icon9,
-            name: "Timely disinfection & sanitization"
+            name: "Best in IT Infrastructure"
         }
     ]
 
@@ -57,7 +57,7 @@ const ExclusiveFeatures = () => {
         <div className="row">
             <div className="col-md-12 text-center white_text">
                 <h3><span className='underline_text'>Amenities</span></h3>
-                <p>Experience the joy of distinctive and exclusive features.</p>
+                <p>Experience the joy of distinctive and classy features.</p>
             </div>
         </div>
 

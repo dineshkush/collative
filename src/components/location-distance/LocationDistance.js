@@ -15,7 +15,7 @@ const LocationDistance = (props) => {
             cls: "dist_item"
         },
         {
-            name: "Select CITYWALK <br/>Mail",
+            name: "Select Citywalk <br/>Mall",
             dist: "(1 km)",
             cls: "dist_item"
         },

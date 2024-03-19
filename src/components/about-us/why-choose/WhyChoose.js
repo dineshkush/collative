@@ -18,12 +18,12 @@ const WhyChoose = () => {
         {
             tagImg: chooseIcon2,
             image: chooseImage2,
-            heading: "24x7  Complete Surveillance"
+            heading: "24x7 Complete Surveillance"
         },
         {
             tagImg: chooseIcon3,
             image: chooseImage3,
-            heading: "Ample Parking for 250+ Cars"
+            heading: "Network with Like-minded people"
         }
     ]
 
@@ -35,7 +35,7 @@ const WhyChoose = () => {
                 <h2>Why Choose collative for Co-working Space <span className='underline_text'>in South Delhi?</span></h2>
             </div>
             <div className="col-md-12 text-center">
-                <p>Collative isn't your average workspace; it's a vibrant revolution redefining what work can be.Immerse yourself in a world of unparalleled facilities and an unmatched ambiance designed to ignite your work dreams.We're passionate about crafting a space that goes beyond productivity.  Here, every moment is an opportunity for growth and connection.  Esteemed members like you aren't just colleagues, you're part of a thriving community where rewarding experiences are the norm.</p>
+                <p>Collative isn't your average workspace; it's a vibrant revolution redefining what work can be Immerse yourself in a world of unparalleled facilities and an unmatched ambiance designed to ignite your work dreams. We're passionate about crafting a space that goes beyond productivity.  Here every moment is an opportunity for growth and connection. Esteemed members like you aren't just colleagues, you're part of a thriving community where rewarding experiences are the norm.</p>
             </div>
         </div>
         <div className="row mt-5">
