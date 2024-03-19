@@ -8,7 +8,7 @@ const Footer = (props) => {
   const offeringsLinks = [
     {
       url: "/offerings",
-      name: "Exclusive Management",
+      name: "Private Cabin",
     },
     {
       url: "/offerings",
@@ -28,23 +28,11 @@ const Footer = (props) => {
     },
     {
       url: "/offerings",
-      name: "Hot Desks/ Shared Spaces",
+      name: "Hot Desks",
     }
   ]
 
   const quickLinks = [
-    {
-      url: "/contact-us",
-      name: "Contact Us",
-    },
-    {
-      url: "/",
-      name: "Blogs",
-    },
-    {
-      url: "/about-us",
-      name: "Why Us",
-    },
     {
       url: "/offerings",
       name: "Offerings",
@@ -52,7 +40,15 @@ const Footer = (props) => {
     {
       url: "/about-us",
       name: "About Us",
-    }
+    },
+    {
+      url: "/",
+      name: "Blogs",
+    },
+    {
+      url: "/contact-us",
+      name: "Contact Us",
+    },
   ]
 
   const bottomLinks = [
@@ -106,17 +102,17 @@ const Footer = (props) => {
 
           <div className="bottom_footer">
             <div className="row align-items-center">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <ul className='footer_sm'>
                   {props.smLinks.map((item) => 
                     <li><Link to={item.url}>{item.icon}</Link></li>
                   )}
                 </ul>
               </div>
-              <div className="col-md-4">
-                <p className='copyright_text'>Copyright © 2024 Collative. All rights reserved.</p>
+              <div className="col-md-6">
+                <p className='copyright_text'>Copyright © 2024 Collative | All rights reserved by Rajeshwari Realty Private Limited</p>
               </div>
-              <div className="col-md-4 d-flex justify-content-end">
+              <div className="col-md-3 d-flex justify-content-end">
                     <ul className='bottom_links'>
                       {bottomLinks.map((item) =>
                         <li><Link to={item.url}>{item.name}</Link></li>

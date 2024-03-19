@@ -12,7 +12,7 @@ const CustomSolutions = () => {
                 <h2>Your Business, Your <span className='underline_text'>Custom Solutions</span></h2>
             </div>
             <div className="col-md-12 text-center">
-                <p>Creating Spaces to Match Your Goals, Delivering the Best Possible Outcomes.</p>
+                <p>Creating Spaces to Match Your Goals, Delivering the Best Outcomes.</p>
             </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ function App() {
       url: "https://www.instagram.com/collativeindia/"
     },
     {
-      icon: <i class="fa-brands fa-twitter"></i>,
+      icon: <i class="fa-brands fa-x-twitter"></i>,
       url: "/"
     },
     {

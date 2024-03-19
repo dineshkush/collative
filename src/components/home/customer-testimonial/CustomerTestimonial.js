@@ -11,7 +11,7 @@ const CustomerTestimonial = () => {
     const testiSlider = {
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         draggable: true,
         centerMode: false,
@@ -71,7 +71,7 @@ const CustomerTestimonial = () => {
         <div className="row">
             <div className="col-md-12 text-center">
                 <h3>See What <span className='underline_text'>Our clients Say</span></h3>
-                <p>Hear what our customers love about us real stories</p>
+                <p>Hear what our customers love about us <a href="https://www.youtube.com/playlist?list=PLoFex79FB3FlXbyYC8DwD8S-AUV9Ii0J4" target="_blank" rel="noopener noreferrer">#realstories</a></p>
             </div>
         </div>
 

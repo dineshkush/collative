@@ -20,14 +20,14 @@ const Header = (props) => {
       url: "/about-us",
     },
     {
-      id: 4,
-      name: "Contact us",
-      url: "/contact-us",
-    },
-    {
       id: 5,
       name: "Blogs",
       url: "/",
+    },
+    {
+      id: 4,
+      name: "Contact us",
+      url: "/contact-us",
     },
   ];
 
