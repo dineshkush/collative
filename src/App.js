@@ -32,7 +32,7 @@ function App() {
     },
     {
       icon: <i class="fa-brands fa-x-twitter"></i>,
-      url: "/"
+      url: "https://twitter.com/Collativeindia"
     },
     {
       icon: <i class="fa-brands fa-linkedin-in"></i>,

@@ -5,27 +5,22 @@ import "./Header.scss";
 const Header = (props) => {
   const navbarMenu = [
     {
-      id: 1,
       name: "Home",
       url: "/",
     },
     {
-      id: 2,
-      name: "Offerings",
-      url: "/offerings",
-    },
-    {
-      id: 3,
       name: "About us",
       url: "/about-us",
     },
     {
-      id: 5,
+      name: "Offerings",
+      url: "/offerings",
+    },
+    {
       name: "Blogs",
       url: "/",
     },
     {
-      id: 4,
       name: "Contact us",
       url: "/contact-us",
     },
@@ -55,8 +50,8 @@ const Header = (props) => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {navbarMenu.map((navItem) =>
-                  <li className="nav-item">
+                {navbarMenu.map((navItem, index) =>
+                  <li key={index} className="nav-item">
                     <Link className="nav-link active" aria-current="page" to={navItem.url}>
                       {navItem.name}
                     </Link>
