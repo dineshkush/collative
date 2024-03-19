@@ -5,17 +5,17 @@ const LocationDistance = (props) => {
 
     const locationDistance = [
         {
-            name: "Max Super Speciality Hospital",
+            name: "Max Super Speciality <br/>Hospital",
             dist: "(3 km)",
             cls: "dist_item"
         },
         {
-            name: "Saket & Malviya Nagar Metro",
+            name: "Saket & Malviya Nagar <br/>Metro",
             dist: "(2 km)",
             cls: "dist_item"
         },
         {
-            name: "Select CITYWALK Mail",
+            name: "Select CITYWALK <br/>Mail",
             dist: "(1 km)",
             cls: "dist_item"
         },
@@ -24,17 +24,17 @@ const LocationDistance = (props) => {
             cls: "dist_item dist_img"
         },
         {
-            name: "Supreme Court",
+            name: "Supreme <br/>Court",
             dist: "(2 km)",
             cls: "dist_item"
         },
         {
-            name: "Connaught place",
+            name: "Connaught <br/>place",
             dist: "(16 km)",
             cls: "dist_item"
         },
         {
-            name: "Indira Gandhi International Airport",
+            name: "Indira Gandhi <br/>International Airport",
             dist: "(20 km)",
             cls: "dist_item"
         },
@@ -49,7 +49,7 @@ const LocationDistance = (props) => {
                         <div className="distance_list">
                             {locationDistance.map((distItem) =>
                                 <div className={distItem.cls}>
-                                    {distItem.name ? <h4>{distItem.name}</h4> : null}
+                                    {distItem.name ? <h4 dangerouslySetInnerHTML={{ __html: distItem.name }}></h4> : null}
                                     {distItem.logo ? <img src={distItem.logo} alt={distItem.name} className='img-fluid' /> : null}
                                     {distItem.dist ? <p>{distItem.dist}</p> : null}
                                 </div>

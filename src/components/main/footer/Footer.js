@@ -7,27 +7,27 @@ const Footer = (props) => {
 
   const offeringsLinks = [
     {
-      url: "/",
+      url: "/offerings",
       name: "Exclusive Management",
     },
     {
-      url: "/",
+      url: "/offerings",
       name: "Shared Workspace",
     },
     {
-      url: "/",
+      url: "/offerings",
       name: "Meeting Rooms",
     },
     {
-      url: "/",
+      url: "/offerings",
       name: "Conference Hall",
     },
     {
-      url: "/",
+      url: "/offerings",
       name: "Atrium for Events",
     },
     {
-      url: "/",
+      url: "/offerings",
       name: "Hot Desks/ Shared Spaces",
     }
   ]
@@ -56,12 +56,12 @@ const Footer = (props) => {
   ]
 
   const bottomLinks = [
+    // {
+    //   url: "/",
+    //   name: "Terms & Conditions"
+    // },
     {
-      url: "/",
-      name: "Terms & Conditions"
-    },
-    {
-      url: "/",
+      url: "/privacy-policy",
       name: "Privacy Policy"
     }
   ]

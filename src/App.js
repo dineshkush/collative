@@ -10,6 +10,7 @@ import ScrollToTop from './scrollToTop';
 import AboutUs from './components/about-us/AboutUs';
 // import Services from './components/services/Services';
 import Offerings from './components/offerings/Offerings';
+import PrivacyPolicy from './components/privacy-policy/PrivacyPolicy';
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/offerings" element={<Offerings />} />
         <Route exact path="/contact-us" element={<Contact logo={logo} contactDetail={contactDetail} smLinks={smLinks} />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     <Footer phone={contactDetail.phone} phone2={contactDetail.phone2} address={contactDetail.address} email={contactDetail.email} logo={logo} smLinks={smLinks} />
     </>
