@@ -6,6 +6,7 @@ import InterviewRooms from "../../../../images/interview-rooms-img.jpg";
 import SharedWorkspace from "../../../../images/shared-workspace-img.jpg";
 import MeetingRooms from "../../../../images/meeting-rooms-img.jpg";
 import ConferenceHall from "../../../../images/conference-hall-img.jpg";
+import PrivateCabin from "../../../../images/private-cabin-img.jpg";
 
 const CustomSolutionsSlider = () => {
   const customSolutionSlider = {
@@ -32,33 +33,33 @@ const CustomSolutionsSlider = () => {
 
   const CustomSolutionsData = [
     {
-        id: 1,
         img: AtriumEvents,
         name: "Atrium for Events",
         // content: "Elevate Occasions with Atrium's Unmatched Event Hosting and Management Expertise.",
     },
     {
-        id: 1,
         img: InterviewRooms,
         name: "Interview Rooms",
         // content: "Where Professional Stories Unfold and Careers Take Flight.",
     },
     {
-        id: 1,
         img: SharedWorkspace,
         name: "Shared Workspace",
         // content: "Elevate Productivity in Our Dynamic and Shared Workspace Environment",
     },
     {
-        id: 1,
         img: MeetingRooms,
         name: "Meeting Rooms",
         // content: "Transformative Meeting Rooms Tailored to Boost Productivity.",
     },
     {
-        id: 1,
         img: ConferenceHall,
         name: "Conference Hall",
+        // content: "Elevate Your Events in Our State-of-the-Art Conference Hall.",
+    },
+    {
+        img: PrivateCabin,
+        name: "Private Cabin",
         // content: "Elevate Your Events in Our State-of-the-Art Conference Hall.",
     }
   ]
