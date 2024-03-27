@@ -109,10 +109,10 @@ const Footer = (props) => {
                   )}
                 </ul>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <p className='copyright_text'>Copyright © 2024 Collative | All rights reserved by Rajeshwari Realty Private Limited</p>
               </div>
-              <div className="col-md-3 d-flex justify-content-end">
+              <div className="col-md-3 col-12 d-flex justify-content-end policy_links">
                     <ul className='bottom_links'>
                       {bottomLinks.map((item) =>
                         <li><Link to={item.url}>{item.name}</Link></li>

@@ -13,3 +13,18 @@
         margin-bottom: 0px;
     }
 }
+
+
+@media (max-width: 480px) {
+    .counter_item {
+        h5 {
+            font-size: 10px;
+            line-height: 12px;
+            margin-top: 4px;
+        }
+        .counter, .counter_sign {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+}

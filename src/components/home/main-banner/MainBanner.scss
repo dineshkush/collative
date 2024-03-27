@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
     &:before {
         content: "";
         position: absolute;
@@ -72,4 +73,44 @@
     //     right: 14%;
     //     width: 25%;
     // }
+}
+
+
+@media (max-width: 480px) {
+    .main_banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .row {
+            .banner_content {
+                h5 {
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 20px;
+                }
+            }
+            .contact_form {
+                box-shadow: 5px 5px 0px #0c1420;
+                padding: 20px 20px;
+                .form_heading {
+                    h3 {
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                }
+                form {
+                    .input_item {
+                        select {
+                            font-size: 11px;
+                        }
+                        input {
+                            font-size: 11px;
+                        }
+                        textarea {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

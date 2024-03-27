@@ -8,12 +8,30 @@
     padding-bottom: 40px;
     h4 {
         font-size: 25px;
-        list-style: 35px;
+        line-height: 35px;
         margin-bottom: 0px;
     }
     .site_btn {
         i {
             margin-right: 5px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .cta_section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        h4 {
+            font-size: 11px;
+            line-height: 12px;
+            margin-bottom: 0px;
+        }
+        .site_btn {
+            padding: 7px 11px 4px;
+            i {
+                margin-right: 2px;
+            }
         }
     }
 }

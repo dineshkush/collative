@@ -61,3 +61,24 @@ h3 {
 .underline_text {
     text-decoration-line: underline;
 }
+
+
+@media (max-width: 480px) {
+    body, p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .site_btn {
+        padding: 7px 20px 6px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}

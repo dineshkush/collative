@@ -11,32 +11,26 @@ const SpecialFeatures = () => {
 
     const SpecialFeaturesDate = [
         {
-            id: 1,
             img: gamingRoom,
-            name: "Gaming Room",
+            name: "Gaming zone",
         },
         {
-            id: 1,
             img: communalArea,
             name: "Collaboration areas",
         },
         {
-            id: 1,
             img: cafeteria,
             name: "Cafeteria",
         },
         {
-            id: 1,
             img: phoneBooth,
             name: "Phone Booth",
         },
         {
-            id: 1,
             img: podcastStudio,
             name: "Podcast Studio",
         },
         {
-            id: 1,
             img: selfServiceCounter,
             name: "Self Service Counter",
         }
@@ -54,7 +48,7 @@ const SpecialFeatures = () => {
 
             <div className="row mt-3">
                 {SpecialFeaturesDate.map((item) => 
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-6">
                         <div className="feature_item">
                             <img src={item.img} alt={item.name} className='img-fluid' />
                             <h4>{item.name}</h4>

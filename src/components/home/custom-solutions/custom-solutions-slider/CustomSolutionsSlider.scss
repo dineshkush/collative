@@ -79,3 +79,29 @@
     }
 
 }
+
+
+@media (max-width: 480px) {
+    .customSolution-item {
+        .img_box {
+            img {
+                height: 220px;
+                width: 100%;
+            }
+            h4 {
+                font-size: 11px;
+                line-height: 12px;
+            }
+        }
+    }
+
+    .testimonials_slider {
+        .slick-slider {
+            .slick-slide {
+                padding: 10px 10px 0px;
+            }
+            
+        }
+    
+    }
+}

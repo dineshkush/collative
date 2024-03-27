@@ -17,6 +17,7 @@ const CustomerTestimonial = () => {
         centerMode: false,
         centerPadding: "0",
         dots: false,
+        arrows: true,
         responsive: [
           {
             breakpoint: 768,
@@ -25,6 +26,8 @@ const CustomerTestimonial = () => {
               slidesToScroll: 1,
               centerMode: true,
               dots: true,
+              arrows: false,
+              adaptiveHeight: true,
             },
           },
         ],

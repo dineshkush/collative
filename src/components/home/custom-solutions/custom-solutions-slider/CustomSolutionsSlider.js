@@ -11,6 +11,8 @@ import PrivateCabin from "../../../../images/private-cabin-img.jpg";
 const CustomSolutionsSlider = () => {
   const customSolutionSlider = {
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -18,14 +20,16 @@ const CustomSolutionsSlider = () => {
     centerMode: false,
     centerPadding: "0",
     dots: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           centerMode: true,
           dots: true,
+          arrows: false,
         },
       },
     ],
@@ -59,7 +63,7 @@ const CustomSolutionsSlider = () => {
     },
     {
         img: PrivateCabin,
-        name: "Private Cabin",
+        name: "Private Cabins",
         // content: "Elevate Your Events in Our State-of-the-Art Conference Hall.",
     }
   ]

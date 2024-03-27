@@ -51,3 +51,32 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+    .testimonials_sec {
+        padding-top: 30px;
+        padding-bottom: 70px;
+        .testi_item {
+            padding: 0px 15px;
+            margin: 0px 0px;
+            .comment {
+                p {
+                    font-size: 11px;
+                    line-height: 16px;
+                }
+            }
+            .testi-foot {
+                h6 {
+                    font-size: 11px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-bottom: 0px;
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+}

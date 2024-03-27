@@ -3,3 +3,10 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+@media (max-width: 480px) {
+    .counter_sec {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}

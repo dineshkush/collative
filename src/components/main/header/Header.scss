@@ -32,10 +32,18 @@
 @media (max-width: 480px) {
     .main_header {
         .navbar {
+            padding: 10px 0px;
             .navbar-brand {
                 img {
-                    width: 140px;
+                    width: 180px;
                 }
+            }
+            .navbar-toggler {
+                color: #fff;
+                outline: none;
+                font-size: 22px;
+                padding: 0px 0px;
+                box-shadow: none;
             }
         }
     }
