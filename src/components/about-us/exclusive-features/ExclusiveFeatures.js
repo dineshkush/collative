@@ -15,7 +15,7 @@ const ExclusiveFeatures = () => {
     const ExclusiveFeaturesList = [
         {
             icon: icon1,
-            name: "Dedicated Workstation"
+            name: "Dedicated Workstations"
         },
         {
             icon: icon2,

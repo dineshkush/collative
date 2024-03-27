@@ -20,7 +20,7 @@ const CallToAction = () => {
                     <h4>Ready to attain <strong>Success?</strong> Connect now!</h4>
                 </div>
                 <div className="col-md-3 d-flex justify-content-end">
-                    <Link to="tel:+919711999628" className='site_btn border_btn'>Let’s Connect</Link>
+                    <Link to="tel:+919711999628" className='site_btn border_btn'><i className="fa-solid fa-phone"></i> Let’s Connect</Link>
                 </div>
             </div>
         </div>      

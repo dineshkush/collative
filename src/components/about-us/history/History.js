@@ -11,7 +11,7 @@ const History = () => {
                 <div className="history_content">
                     <h3>How we started?</h3>
                     <img src={rajDarbarLogo} alt="Rajdarbar" className='img-fluid' />
-                    <p>Founded by our Chairman, Dr. Rakesh Garg, Rajdarbar Realty represents a combination of Indian Heritage and Modern Luxury. Making footprints in the Metropolitan, Tier 2 & 3 Cities, with our Commercial & Residential Spaces.</p>
+                    <p>Founded by our Chairman, Dr. Rakesh Garg, Rajdarbar Realty represents a combination of Indian Heritage and Modern Luxury. With pan India presence we have successfully delivered commercial & residential spaces across multiple cities.</p>
                 </div>
             </div>
         </div>

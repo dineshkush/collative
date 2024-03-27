@@ -11,7 +11,7 @@ const BusinessAcumen = () => {
         <div className="row">
             <div className="col-md-12 text-center">
                 <h3>Business Acumen of More than <span className='underline_text'>Two Decades</span></h3>
-                <p>A Legacy of Business Excellence and Acumen.</p>
+                <p>A Legacy of Business Excellence and Comittment.</p>
             </div>
         </div>
 
@@ -19,7 +19,7 @@ const BusinessAcumen = () => {
             <div className="row align-items-center">
                 <div className="col-md-6">
                     <div className="content">
-                        <p>Rajdarbar Group, a pioneer with decades of success, introduces the Collative Community, an initiative fostering new business opportunities.</p>
+                        <p>Rajdarbar Group, a pioneer with decades of success, introduces the Collative Co-working, an initiative fostering new business opportunities.</p>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -45,7 +45,7 @@ const BusinessAcumen = () => {
             <div className="row align-items-center">
                 <div className="col-md-6">
                     <div className="content">
-                        <p>With Collative, Rajdarbar aims to carry forward the Tradition of providing Regal Experiences to its Clientele. The Architecture, Ambiance, and Aesthetics, are inspired by the Traditionalism that Rajdarbar boasts proudly.</p>
+                        <p>With Collative, Rajdarbar aims to carry forward the Tradition of providing Regal Experience to its Clientele. The Architecture, Ambiance, and Aesthetics, are inspired by the Traditionalism that we are proud of.</p>
                     </div>
                 </div>
                 <div className="col-md-6">

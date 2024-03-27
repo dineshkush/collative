@@ -72,7 +72,7 @@ const OfferingsService = () => {
                 <div className="col-md-12 text-center">
                     <div className="service_text">
                         <h3>Private <span className="underline_text">Cabins</span></h3>
-                        <p>Step into a sanctuary of productivity with our Managed Offices and private cabin meticulously designed to elevate your professional endeavours with seamless efficiency and unparalleled comfort.</p>
+                        <p>Step into a sanctuary of productivity with our Managed Offices and Private Cabins meticulously designed to elevate your professional endeavours with seamless efficiency and unparalleled comfort.</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ const OfferingsService = () => {
                 <div className="col-md-12 text-center">
                     <div className="service_text">
                         <h3>Interview <span className="underline_text">Rooms</span></h3>
-                        <p>Land your dream candidate or impress that potential client with a powerful interview experience at Collative. Ditch the sterile conference room vibe  our sophisticated yet comfortable interview spaces set the stage for meaningful conversation and confident decision making.</p>
+                        <p>Land your dream candidate or impress that potential client with a powerful interview experience at Collative. Ditch the conventional conference room vibe  our sophisticated yet comfortable interview spaces set the stage for meaningful conversation and confident decision making.</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ const OfferingsService = () => {
                 <div className="col-md-12 text-center">
                     <div className="service_text">
                         <h3>Meeting <span className="underline_text">Rooms</span></h3>
-                        <p>Forget sterile conference rooms. At Collative, your small business meetings become symphony sessions, orchestrated for success.  Our cutting edge meeting rooms are designed to ignite creativity amplify collaboration and leave a lasting impression.</p>
+                        <p>Forget the old conference rooms. At Collative, your small business meetings become symphony sessions, orchestrated for success. Our cutting edge meeting rooms are designed to ignite creativity, amplify collaboration and leave a lasting impression.</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ const OfferingsService = () => {
                 <div className="col-md-12 text-center">
                     <div className="service_text">
                         <h3>Event <span className="underline_text">Spaces</span></h3>
-                        <p>From corporate seminars to art exhibitions, the events space at Collative is designed to accommodate a wide range of gatherings. From the sleek, contemporary decor to seamless audio-visual capabilities, every detail is curated to provide an engaging experience for both the presenter and the attendees alike.</p>
+                        <p>From corporate seminars, networking events or a product launch  the vast event space at Collative is designed to accommodate a wide range of gatherings. From the sleek, contemporary decor to seamless audio-visual capabilities, every detail is curated to provide an engaging experience for both the presenter and the attendees alike.</p>
                     </div>
                 </div>
             </div>

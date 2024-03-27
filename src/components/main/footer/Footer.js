@@ -70,7 +70,7 @@ const Footer = (props) => {
               <div className="col-md-4">
                 <div className="footer_about">
                   <Link to="/"><img src={props.logo} alt="Logo" className='img-fluid' /></Link>
-                  <p>Collative is a premium workspace provider to business leaders & young entrepreneurs. Operating from the heart of Delhi, the workspace boasts top-notch ergonomics and infrastructural facilities. Come to revel in ultra-modern technologies and upgrade your business to the next level.</p>
+                  <p>Collative is a premium workspace provider to business leaders & young entrepreneurs. Operating from the heart of Delhi, the workspace boasts top-notch infrastructural facilities. Come to revel in ultra-modern technologies and upgrade your business to the next level.</p>
                 </div>
               </div>
               <div className="col-md-2">

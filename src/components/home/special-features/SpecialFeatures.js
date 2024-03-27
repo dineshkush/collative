@@ -18,7 +18,7 @@ const SpecialFeatures = () => {
         {
             id: 1,
             img: communalArea,
-            name: "Collaboration area",
+            name: "Collaboration areas",
         },
         {
             id: 1,

@@ -30,7 +30,7 @@ const ContactBanner = (props) => {
         <div className="row">
             <div className="col-md-8">
                 <div className="contact_banner_content">
-                    <h3>Collative team is here to provide you with a de-densified co-working place</h3>
+                    <h3>Collative team is here to deliver you all yours office solutions</h3>
                     <p>Fill out the form and we’ll get back to you as soon as possible.</p>
                 </div>
                 <div className="row">
