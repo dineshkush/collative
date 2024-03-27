@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/collative/static/css/main.be35144d.css",
-    "main.js": "/collative/static/js/main.e34bdc5a.js",
+    "main.css": "/collative/static/css/main.e0508bf0.css",
+    "main.js": "/collative/static/js/main.fc8f10bb.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
-    "static/media/banner-img3.jpg": "/collative/static/media/banner-img3.dc4b4d5397f234f46c54.jpg",
-    "static/media/banner-img.jpg": "/collative/static/media/banner-img.df64b525992900acf0fe.jpg",
+    "static/media/banner-img.jpg": "/collative/static/media/banner-img.b5963a59c084c483b2f9.jpg",
+    "static/media/aboutSec3-img.jpg": "/collative/static/media/aboutSec3-img.2da4fd3b73c61de8426e.jpg",
     "static/media/private-cabin-service.jpg": "/collative/static/media/private-cabin-service.2a27c0a391dd128af869.jpg",
     "static/media/interview-rooms-banner.jpg": "/collative/static/media/interview-rooms-banner.3353a36922feb673f1e5.jpg",
     "static/media/services-banner.jpg": "/collative/static/media/services-banner.dc254b4cf5bd8673038d.jpg",
     "static/media/hot-desks-banner.jpg": "/collative/static/media/hot-desks-banner.bbcd850570bfbcfcce36.jpg",
     "static/media/about-banner.jpg": "/collative/static/media/about-banner.021aba63e3010d25aa9e.jpg",
-    "static/media/banner-img2.jpg": "/collative/static/media/banner-img2.c5168bc9326205b08032.jpg",
+    "static/media/aboutSec2-img.jpg": "/collative/static/media/aboutSec2-img.e8d30bfedf12eca4b909.jpg",
     "static/media/Conference-room-img.jpg": "/collative/static/media/Conference-room-img.c38334b49b66d9c6eb62.jpg",
     "static/media/BusinessAcumen-img2.jpg": "/collative/static/media/BusinessAcumen-img2.2f76a0a14482084169b7.jpg",
     "static/media/BusinessAcumen-img3.jpg": "/collative/static/media/BusinessAcumen-img3.7adb466fcfba67cd2e90.jpg",
     "static/media/meeting-rooms-banner.jpg": "/collative/static/media/meeting-rooms-banner.42eb16b7e6e0749c6560.jpg",
     "static/media/BusinessAcumen-img1.jpg": "/collative/static/media/BusinessAcumen-img1.1193b3f48bf9c1c62ebf.jpg",
     "static/media/service-tab.jpg": "/collative/static/media/service-tab.f4a6827b4e6481bb2f9c.jpg",
-    "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.e58dbdbbf4bc26cac1e4.jpg",
     "static/media/Shared-Workspace-banner.jpg": "/collative/static/media/Shared-Workspace-banner.f1bf1579919bbb5fa07c.jpg",
+    "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.98a628fe43fef4a1cc70.jpg",
     "static/media/collative-front-img.jpg": "/collative/static/media/collative-front-img.1320e167cd1452bae652.jpg",
     "static/media/choose-step1.jpg": "/collative/static/media/choose-step1.dd9c3cd3ac77c70ff7ab.jpg",
     "static/media/cafeteria-img.jpg": "/collative/static/media/cafeteria-img.3eaefdbbea33d223d7a4.jpg",
@@ -42,12 +42,12 @@
     "static/media/neo-logo.jpeg": "/collative/static/media/neo-logo.0cd3b06ffeb198bc80df.jpeg",
     "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
-    "main.be35144d.css.map": "/collative/static/css/main.be35144d.css.map",
-    "main.e34bdc5a.js.map": "/collative/static/js/main.e34bdc5a.js.map",
+    "main.e0508bf0.css.map": "/collative/static/css/main.e0508bf0.css.map",
+    "main.fc8f10bb.js.map": "/collative/static/js/main.fc8f10bb.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be35144d.css",
-    "static/js/main.e34bdc5a.js"
+    "static/css/main.e0508bf0.css",
+    "static/js/main.fc8f10bb.js"
   ]
 }
