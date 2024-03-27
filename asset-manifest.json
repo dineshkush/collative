@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/collative/static/css/main.e0508bf0.css",
-    "main.js": "/collative/static/js/main.fc8f10bb.js",
+    "main.js": "/collative/static/js/main.ada33482.js",
     "static/js/453.3ee45149.chunk.js": "/collative/static/js/453.3ee45149.chunk.js",
     "static/media/banner-img.jpg": "/collative/static/media/banner-img.b5963a59c084c483b2f9.jpg",
     "static/media/aboutSec3-img.jpg": "/collative/static/media/aboutSec3-img.2da4fd3b73c61de8426e.jpg",
@@ -19,6 +19,7 @@
     "static/media/service-tab.jpg": "/collative/static/media/service-tab.f4a6827b4e6481bb2f9c.jpg",
     "static/media/Shared-Workspace-banner.jpg": "/collative/static/media/Shared-Workspace-banner.f1bf1579919bbb5fa07c.jpg",
     "static/media/aboutSec-img.jpg": "/collative/static/media/aboutSec-img.98a628fe43fef4a1cc70.jpg",
+    "static/media/private-cabin-img.jpg": "/collative/static/media/private-cabin-img.7a7993f0498eab6e87b1.jpg",
     "static/media/collative-front-img.jpg": "/collative/static/media/collative-front-img.1320e167cd1452bae652.jpg",
     "static/media/choose-step1.jpg": "/collative/static/media/choose-step1.dd9c3cd3ac77c70ff7ab.jpg",
     "static/media/cafeteria-img.jpg": "/collative/static/media/cafeteria-img.3eaefdbbea33d223d7a4.jpg",
@@ -43,11 +44,11 @@
     "static/media/india-smart-hire-logo.jpeg": "/collative/static/media/india-smart-hire-logo.b678b0917e48d4ab1d9c.jpeg",
     "index.html": "/collative/index.html",
     "main.e0508bf0.css.map": "/collative/static/css/main.e0508bf0.css.map",
-    "main.fc8f10bb.js.map": "/collative/static/js/main.fc8f10bb.js.map",
+    "main.ada33482.js.map": "/collative/static/js/main.ada33482.js.map",
     "453.3ee45149.chunk.js.map": "/collative/static/js/453.3ee45149.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0508bf0.css",
-    "static/js/main.fc8f10bb.js"
+    "static/js/main.ada33482.js"
   ]
 }
