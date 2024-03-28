@@ -45,6 +45,20 @@
                 padding: 0px 0px;
                 box-shadow: none;
             }
+
+            .navbar-collapse {
+                position: absolute;
+                top: 59px;
+                background-color: #0c1420;
+                width: 100%;
+                left: 0;
+                right: 0;
+                padding-bottom: 20px;
+            }
+
+            .header_btn {
+                padding: 0px 25px;
+            }
         }
     }
 }

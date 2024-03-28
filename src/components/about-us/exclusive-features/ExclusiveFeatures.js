@@ -63,7 +63,7 @@ const ExclusiveFeatures = () => {
 
         <div className="row">
             {ExclusiveFeaturesList.map((item) =>
-                <div className="col-md-4">
+                <div className="col-md-4 col-6">
                     <div className="feature_item white_text text-center">
                         <img src={item.icon} alt={item.name} className='img-fluid' />
                         <h4>{item.name}</h4>

@@ -15,7 +15,7 @@ const AboutContent = () => {
             </div>
             <div className="col-md-12 text-center">
                 <div className="aboutUs-Img">
-                    <img src={AboutFrontImg} alt="About" />
+                    <img src={AboutFrontImg} alt="About" className='img-fluid' />
                 </div>
             </div>
         </div>

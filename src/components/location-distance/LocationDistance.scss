@@ -56,3 +56,21 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+    .distance_sec {
+        .distance_list {
+            display: inline-block;
+            width: 100%;
+            &:before {
+                display: none;
+            }
+            .dist_item {
+                padding: 20px 15px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                margin: 20px 0px;
+            }
+        }
+    }
+}

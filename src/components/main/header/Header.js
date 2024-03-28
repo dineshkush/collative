@@ -1,8 +1,19 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.scss";
 
 const Header = (props) => {
+
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+  const handleNavbarToggle = () => {
+    setIsNavbarOpen(!isNavbarOpen);
+  };
+
+  const handleNavbarClose = () => {
+    setIsNavbarOpen(false);
+  };
+
   const navbarMenu = [
     {
       name: "Home",
@@ -35,26 +46,27 @@ const Header = (props) => {
               <img src={props.logo} alt="Collative" />
             </Link>
             <button
-              className="navbar-toggler"
+              className={`navbar-toggler ${isNavbarOpen ? '' : 'collapsed'}`}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
-              aria-expanded="false"
+              aria-expanded={isNavbarOpen}
               aria-label="Toggle navigation"
+              onClick={handleNavbarToggle}
             >
               <i class="fa-solid fa-bars"></i>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className={`collapse navbar-collapse justify-content-end ${isNavbarOpen ? 'show' : ''}`}
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 {navbarMenu.map((navItem, index) =>
                   <li key={index} className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to={navItem.url}>
+                    <NavLink className="nav-link active" aria-current="page" to={navItem.url} onClick={handleNavbarClose}>
                       {navItem.name}
-                    </Link>
+                    </NavLink>
                   </li>
                 )}
               </ul>

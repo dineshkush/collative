@@ -45,3 +45,36 @@
         padding: 0;
     }
 }
+
+
+
+@media (max-width: 480px) {
+    .service_tabs_sec {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .tabs_list {
+            li {
+                margin: 4px 2px;
+                .site_btn {
+                    padding: 4px 13px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .offerings_heading {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .service_section {
+        .service_text {
+            padding: 40px 0px 20px;
+            p {
+                font-size: 11px;
+                line-height: 18px;
+            }
+        }
+    }
+}

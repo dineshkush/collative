@@ -61,3 +61,37 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+    .business_acumen_sec {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .business_acumen_list {
+            &:before {
+                display: none;
+            }
+            .row {
+                margin: 10px 0px 10px;
+                .col-md-6 {                    
+                    &:before {
+                        display: none;
+                    }
+                    .content {
+                        border: 1px solid #0C1420;
+                        padding: 30px 30px;
+                        border-radius: 20px;
+                        background-color: #fff;
+                        font-size: 18px;
+                        line-height: 28px;
+                        margin: 10px 0px;
+                        transition: all 0.5s;
+                    }
+                    .img {
+                        margin: 0px 0px;
+                    }
+                }
+            }
+        }
+    }
+}

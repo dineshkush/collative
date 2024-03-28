@@ -6,3 +6,11 @@
     background-position: 50% 50%;
     height: 620px;
 }
+
+@media (max-width: 480px) {
+    .Offerings_banner {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 200px;
+    }
+}

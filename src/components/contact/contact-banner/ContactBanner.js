@@ -35,7 +35,7 @@ const ContactBanner = (props) => {
                 </div>
                 <div className="row">
                     {contactInfo.map((item) =>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-6">
                             <div className="contact_item">
                                 {item.icon}
                                 <h4>{item.heading}</h4>
@@ -45,7 +45,7 @@ const ContactBanner = (props) => {
                         </div>
                     )}
 
-                    <div className="col-md-6">
+                    <div className="col-md-6  col-6">
                         <div className="contact_item">
                             <i class="fa-solid fa-share-nodes"></i>
                             <h4>Social</h4>

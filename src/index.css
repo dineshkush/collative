@@ -31,6 +31,7 @@ body {
     color: #0C1420;
     font-size: 14px;
     background-color: transparent;
+    display: inline-block;
 }
 .white_btn {
     border: 1px solid #fff;

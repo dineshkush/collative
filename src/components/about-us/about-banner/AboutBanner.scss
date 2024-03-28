@@ -5,10 +5,12 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 620px;
-    // .banner_content {
-    //     background-color: #fff;
-    //     box-shadow: 10px 10px 0px #0c1420;
-    //     padding: 50px 30px;
-    //     border-radius: 20px;
-    // }
+}
+
+@media (max-width: 480px) {
+    .about_banner {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 200px;
+    }
 }

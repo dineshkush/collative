@@ -44,17 +44,15 @@ const LocationDistance = (props) => {
     <section className='distance_sec'>
         <div className="container-fluid">
             <div className="row">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="distance_list">
-                            {locationDistance.map((distItem) =>
-                                <div className={distItem.cls}>
-                                    {distItem.name ? <h4 dangerouslySetInnerHTML={{ __html: distItem.name }}></h4> : null}
-                                    {distItem.logo ? <img src={distItem.logo} alt={distItem.name} className='img-fluid' /> : null}
-                                    {distItem.dist ? <p>{distItem.dist}</p> : null}
-                                </div>
-                            )}
-                        </div>
+                <div className="col-md-12">
+                    <div className="distance_list">
+                        {locationDistance.map((distItem) =>
+                            <div className={distItem.cls}>
+                                {distItem.name ? <h4 dangerouslySetInnerHTML={{ __html: distItem.name }}></h4> : null}
+                                {distItem.logo ? <img src={distItem.logo} alt={distItem.name} className='img-fluid' /> : null}
+                                {distItem.dist ? <p>{distItem.dist}</p> : null}
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
