@@ -1,54 +1,137 @@
-import React from 'react'
-import "./ContactForm.scss"
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import "./ContactForm.scss";
 
 const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    interest: "",
+    remarks: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await emailjs.sendForm(
+        "service_z2112fw",
+        "template_6e258xw",
+        e.target,
+        "WAepkaen3B4uDYScY"
+      );
+      setSubmitted(true);
+      setError(false);
+      setFormData({
+        fullName: '',
+        email: '',
+        phone: '',
+        interest: '',
+        remarks: ''
+      });
+    } catch (error) {
+      console.error("Error:", error);
+      setSubmitted(false);
+      setError(true);
+    }
+  };
+
   return (
     <div className="contact_form">
-        <div className="form_heading">
-            <h3>Schedule a Visit</h3>
-        </div>
-        <form>
-            <div className="row">
-                <div className="col-md-12">
-                    <div class="input_item">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>What are you interested in?</option>
-                            <option value="Private office (cabin)">Private office (cabin)</option>
-                            <option value="Managed office">Managed office</option>
-                            <option value="Shared workspace">Shared workspace</option>
-                            <option value="Hot desk">Hot desk</option>
-                            <option value="Meeting room">Meeting room</option>
-                            <option value="Conference room">Conference room</option>
-                            <option value="Interview room">Interview room</option>
-                            <option value="3">Event space</option>
-                        </select>
-                    </div>
-                    <div class="input_item">
-                        {/* <label for="formGroupExampleInput" class="form-label">Last Name</label> */}
-                        <input type="text" class="form-control" placeholder='Full Name' id="formGroupExampleInput" />
-                    </div>
-                    <div class="input_item">
-                        {/* <label for="formGroupExampleInput" class="form-label">Email Address</label> */}
-                        <input type="email" class="form-control" placeholder='Email' id="formGroupExampleInput" />
-                        {/* <i class="fa-regular fa-envelope"></i> */}
-                    </div>
-                    <div class="input_item">
-                        {/* <label for="formGroupExampleInput" class="form-label">Orgnisation</label> */}
-                        <input type="tel" class="form-control" placeholder='Phone' id="formGroupExampleInput" />
-                        {/* <i class="fa-solid fa-briefcase"></i> */}
-                    </div>
-                    <div class="input_item">
-                        {/* <label for="formGroupExampleInput" class="form-label">Orgnisation</label> */}
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder='Remarks (optional)' rows="3"></textarea>
-                        {/* <i class="fa-solid fa-briefcase"></i> */}
-                    </div>
+      <div className="form_heading">
+        <h3>Schedule a Visit</h3>
+      </div>
 
-                    <button type="submit" className="btn site_btn">Submit</button>
-                </div>
+      <form onSubmit={handleSubmit}>
+        <div className="row">
+          <div className="col-md-12">
+            <div className="input_item">
+              <select
+                className="form-select"
+                aria-label="Select Interest"
+                name="interest"
+                value={formData.interest}
+                onChange={handleChange}
+                required
+              >
+                <option value="">What are you interested in?</option>
+                <option value="Private office (cabin)">
+                  Private office (cabin)
+                </option>
+                <option value="Managed office">Managed office</option>
+                <option value="Shared workspace">Shared workspace</option>
+                <option value="Hot desk">Hot desk</option>
+                <option value="Meeting room">Meeting room</option>
+                <option value="Conference room">Conference room</option>
+                <option value="Interview room">Interview room</option>
+                <option value="Event space">Event space</option>
+              </select>
             </div>
-        </form>
-    </div>
-  )
-}
+            <div className="input_item">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Full Name"
+                name="fullName"
+                value={formData.fullName}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="input_item">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="input_item">
+              <input
+                type="tel"
+                className="form-control"
+                placeholder="Phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="input_item">
+              <textarea
+                className="form-control"
+                placeholder="Remarks (optional)"
+                name="remarks"
+                value={formData.remarks}
+                onChange={handleChange}
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" className="btn site_btn">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
 
-export default ContactForm
+      {submitted && <p style={{color:'green'}}>Thank you for your submission!</p>}
+      {error && <p style={{color:'red'}}>Oops! Something went wrong. Please try again later.</p>}
+
+    </div>
+  );
+};
+
+export default ContactForm;
