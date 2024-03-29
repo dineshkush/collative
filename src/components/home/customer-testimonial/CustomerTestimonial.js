@@ -1,10 +1,10 @@
 import React from 'react'
 import "./CustomerTestimonial.scss"
 import Slider from "react-slick";
-import profile1 from "../../../images/india-smart-hire-logo.jpeg";
-import profile2 from "../../../images/collative-logo-review.png";
-import profile3 from "../../../images/brac-logo.jpeg";
-import profile4 from "../../../images/neo-logo.jpeg";
+import profile1 from "../../../images/india-smart-hire-logo.webp";
+import profile2 from "../../../images/collative-logo-review.webp";
+import profile3 from "../../../images/brac-logo.webp";
+import profile4 from "../../../images/neo-logo.webp";
 
 const CustomerTestimonial = () => {
 

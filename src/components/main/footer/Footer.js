@@ -77,7 +77,7 @@ const Footer = (props) => {
                 <h4 className="footer_title">Offerings</h4>
                 <ul className='footer_nav'>
                   {offeringsLinks.map((item) =>
-                    <li><Link to={item.url}>{item.name}</Link></li>
+                    <li><a href={item.url}>{item.name}</a></li>
                   )}
                 </ul>
               </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 import "./SpecialFeatures.scss"
-import gamingRoom from "../../../images/gaming-room.jpg";
-import communalArea from "../../../images/communal-area.jpg";
-import cafeteria from "../../../images/cafeteria-img.jpg";
-import phoneBooth from "../../../images/phone-booth.jpg";
-import podcastStudio from "../../../images/podcast-studio.jpg";
-import selfServiceCounter from "../../../images/self-service-counter.jpg";
+import gamingRoom from "../../../images/gaming-room.webp";
+import communalArea from "../../../images/communal-area.webp";
+import cafeteria from "../../../images/cafeteria-img.webp";
+import phoneBooth from "../../../images/phone-booth.webp";
+import podcastStudio from "../../../images/podcast-studio.webp";
+import selfServiceCounter from "../../../images/self-service-counter.webp";
 
 const SpecialFeatures = () => {
 

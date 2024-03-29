@@ -1,7 +1,7 @@
 import React from 'react'
 import "./CallToAction.scss"
 import { Link } from 'react-router-dom'
-import ctaBackground from "../../../images/cta-backgroung.jpg";
+import ctaBackground from "../../../images/cta-backgroung.webp";
 
 const CallToAction = () => {
   return (

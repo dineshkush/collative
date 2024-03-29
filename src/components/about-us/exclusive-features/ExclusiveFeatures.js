@@ -1,14 +1,14 @@
 import React from 'react'
 import "./ExclusiveFeatures.scss"
-import icon1 from "../../../images/icons/icon1.png";
-import icon2 from "../../../images/icons/icon2.png";
-import icon3 from "../../../images/icons/icon3.png";
-import icon4 from "../../../images/icons/icon4.png";
-import icon5 from "../../../images/icons/icon5.png";
-import icon6 from "../../../images/icons/icon6.png";
-import icon7 from "../../../images/icons/icon7.png";
-import icon8 from "../../../images/icons/icon8.png";
-import icon9 from "../../../images/icons/icon9.png";
+import icon1 from "../../../images/icons/icon1.svg";
+import icon2 from "../../../images/icons/icon2.svg";
+import icon3 from "../../../images/icons/icon3.svg";
+import icon4 from "../../../images/icons/icon4.svg";
+import icon5 from "../../../images/icons/icon5.svg";
+import icon6 from "../../../images/icons/icon6.svg";
+import icon7 from "../../../images/icons/icon7.svg";
+import icon8 from "../../../images/icons/icon8.svg";
+import icon9 from "../../../images/icons/icon9.svg";
 
 const ExclusiveFeatures = () => {
 

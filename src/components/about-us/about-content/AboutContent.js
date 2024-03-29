@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AboutContent.scss"
-import AboutFrontImg from "../../../images/collative-front-img.jpg";
+import AboutFrontImg from "../../../images/collative-front-img.webp";
 
 const AboutContent = () => {
   return (

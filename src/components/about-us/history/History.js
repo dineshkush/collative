@@ -1,6 +1,6 @@
 import React from 'react'
 import "./History.scss"
-import rajDarbarLogo from "../../../images/rajdarbar-logo.png";
+import rajDarbarLogo from "../../../images/rajdarbar-logo.webp";
 
 const History = () => {
   return (

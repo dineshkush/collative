@@ -1,8 +1,8 @@
 import React from 'react'
 import "./AboutSec.scss"
-import aboutSecImg from "../../../images/aboutSec-img.jpg";
-import aboutSecImg2 from "../../../images/aboutSec2-img.jpg";
-import aboutSecImg3 from "../../../images/aboutSec3-img.jpg";
+import aboutSecImg from "../../../images/aboutSec-img.webp";
+import aboutSecImg2 from "../../../images/aboutSec2-img.webp";
+import aboutSecImg3 from "../../../images/aboutSec3-img.webp";
 // import { Link } from 'react-router-dom';
 
 const AboutSec = () => {

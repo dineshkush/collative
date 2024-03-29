@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
 import "./CustomSolutionsSlider.scss";
-import AtriumEvents from "../../../../images/atrium-for-events-img.jpg";
-import InterviewRooms from "../../../../images/interview-rooms-img.jpg";
-import SharedWorkspace from "../../../../images/shared-workspace-img.jpg";
-import MeetingRooms from "../../../../images/meeting-rooms-img.jpg";
-import ConferenceHall from "../../../../images/conference-hall-img.jpg";
-import PrivateCabin from "../../../../images/private-cabin-img.jpg";
+import AtriumEvents from "../../../../images/atrium-for-events-img.webp";
+import InterviewRooms from "../../../../images/interview-rooms-img.webp";
+import SharedWorkspace from "../../../../images/shared-workspace-img.webp";
+import MeetingRooms from "../../../../images/meeting-rooms-img.webp";
+import ConferenceHall from "../../../../images/conference-hall-img.webp";
+import PrivateCabin from "../../../../images/private-cabin-img.webp";
 
 const CustomSolutionsSlider = () => {
   const customSolutionSlider = {

@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home';
 import Header from './components/main/header/Header';
 import Footer from './components/main/footer/Footer';
-import logo from "./images/collative-logo.png";
+import logo from "./images/collative-logo.webp";
 import Contact from './components/contact/Contact';
 import ScrollToTop from './scrollToTop';
 import AboutUs from './components/about-us/AboutUs';
@@ -46,16 +46,18 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
     <ScrollToTop />
     <Header phone={contactDetail.phone} logo={logo} />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about-us" element={<AboutUs />} />
-        <Route exact path="/offerings" element={<Offerings />} />
-        <Route exact path="/contact-us" element={<Contact logo={logo} contactDetail={contactDetail} smLinks={smLinks} />} />
-        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about-us" exact element={<AboutUs />} />
+        <Route path="/offerings" exact element={<Offerings />} />
+        <Route path="/contact-us" exact element={<Contact logo={logo} contactDetail={contactDetail} smLinks={smLinks} />} />
+        <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
       </Routes>
     <Footer phone={contactDetail.phone} phone2={contactDetail.phone2} address={contactDetail.address} email={contactDetail.email} logo={logo} smLinks={smLinks} />
+    </BrowserRouter>
     </>
   );
 }
