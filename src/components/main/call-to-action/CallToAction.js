@@ -12,7 +12,7 @@ const CallToAction = () => {
                     <h4>Love What <strong>You see?</strong> seize it <strong>Now</strong></h4>
                 </div>
                 <div className="col-md-3 col-4 d-flex justify-content-end">
-                    <Link to="/contact-us" className='site_btn'>Book a Visit</Link>
+                    <a href="/contact-us" className='site_btn'>Book a Visit</a>
                 </div>
             </div>
             <div className="row align-items-center mt-3">

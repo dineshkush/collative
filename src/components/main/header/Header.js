@@ -72,7 +72,7 @@ const Header = (props) => {
               </ul>
               <div className="header_btn">
                 <Link to={`tel:${props.phone}`} className="border_btn">{props.phone}</Link>
-                <Link to="/contact-us" className="white_btn">Enquire Now</Link>
+                <a href="/contact-us" className="white_btn">Enquire Now</a>
               </div>
             </div>
           </div>
