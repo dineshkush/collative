@@ -42,7 +42,7 @@ const Footer = (props) => {
       name: "About Us",
     },
     {
-      url: "/",
+      url: "/blog",
       name: "Blogs",
     },
     {

@@ -29,7 +29,7 @@ const Header = (props) => {
     },
     {
       name: "Blogs",
-      url: "/",
+      url: "/blog",
     },
     {
       name: "Contact us",
