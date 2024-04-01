@@ -62,7 +62,20 @@ const Header = (props) => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {navbarMenu.map((navItem, index) =>
+                {navbarMenu.slice(0, 3).map((navItem, index) =>
+                  <li key={index} className="nav-item">
+                    <NavLink className="nav-link active" aria-current="page" to={navItem.url} onClick={handleNavbarClose}>
+                      {navItem.name}
+                    </NavLink>
+                  </li>
+                )}
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="https://collative.in/blog/" onClick={handleNavbarClose}>
+                    Blog
+                  </a>
+                </li>
+                {navbarMenu.slice(4, 5).map((navItem, index) =>
                   <li key={index} className="nav-item">
                     <NavLink className="nav-link active" aria-current="page" to={navItem.url} onClick={handleNavbarClose}>
                       {navItem.name}

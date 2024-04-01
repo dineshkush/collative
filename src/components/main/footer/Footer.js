@@ -84,7 +84,11 @@ const Footer = (props) => {
               <div className="col-md-2">
                 <h4 className="footer_title">Quick Links</h4>
                 <ul className='footer_nav'>
-                  {quickLinks.map((item) =>
+                  {quickLinks.slice(0, 2).map((item) =>
+                    <li><Link to={item.url}>{item.name}</Link></li>
+                  )}
+                  <li><a href="https://collative.in/blog/">Blog</a></li>
+                  {quickLinks.slice(3, 4).map((item) =>
                     <li><Link to={item.url}>{item.name}</Link></li>
                   )}
                 </ul>
