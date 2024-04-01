@@ -24,7 +24,7 @@ const SpecialFeatures = () => {
         },
         {
             img: phoneBooth,
-            name: "Phone Booth",
+            name: "Phone Booths",
         },
         {
             img: podcastStudio,
@@ -32,7 +32,7 @@ const SpecialFeatures = () => {
         },
         {
             img: selfServiceCounter,
-            name: "Self Service Counter",
+            name: "Self Service Counters",
         }
     ]
 
