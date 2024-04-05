@@ -1,8 +1,8 @@
 import React from 'react'
 import "./BusinessAcumen.scss";
-import BusinessAcumenImg1 from "../../../images/BusinessAcumen-img1.webp";
-import BusinessAcumenImg2 from "../../../images/BusinessAcumen-img2.webp";
-import BusinessAcumenImg3 from "../../../images/BusinessAcumen-img3.webp";
+import BusinessAcumenImg1 from "../../../images/BusinessAcumen-img1.jpg";
+import BusinessAcumenImg2 from "../../../images/BusinessAcumen-img2.jpg";
+import BusinessAcumenImg3 from "../../../images/BusinessAcumen-img3.jpg";
 
 const BusinessAcumen = () => {
   return (

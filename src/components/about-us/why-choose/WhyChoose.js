@@ -1,11 +1,11 @@
 import React from 'react'
 import "./WhyChoose.scss"
-import chooseIcon1 from "../../../images/step1.webp";
-import chooseIcon2 from "../../../images/step2.webp";
-import chooseIcon3 from "../../../images/step3.webp";
-import chooseImage1 from "../../../images/choose-step1.webp";
-import chooseImage2 from "../../../images/choose-step2.webp";
-import chooseImage3 from "../../../images/choose-step3.webp";
+import chooseIcon1 from "../../../images/step1.png";
+import chooseIcon2 from "../../../images/step2.png";
+import chooseIcon3 from "../../../images/step3.png";
+import chooseImage1 from "../../../images/choose-step1.jpg";
+import chooseImage2 from "../../../images/choose-step2.jpg";
+import chooseImage3 from "../../../images/choose-step3.jpg";
 
 const WhyChoose = () => {
 

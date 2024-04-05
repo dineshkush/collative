@@ -1,6 +1,6 @@
 import React from 'react';
 import "./OfferingsBanner.scss";
-import ServiceBanner from "../../../images/services-banner.webp";
+import ServiceBanner from "../../../images/services-banner.jpg";
 
 const OfferingsBanner = () => {
   return (

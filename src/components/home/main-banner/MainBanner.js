@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainBanner.scss";
-import bannerImage from "../../../images/banner-img.webp";
+import bannerImage from "../../../images/banner-img.jpg";
 // import bannerImage2 from "../../../images/banner-img2.jpg";
 // import bannerImage3 from "../../../images/banner-img3.jpg";
 import ContactForm from "../../contact-form/ContactForm";

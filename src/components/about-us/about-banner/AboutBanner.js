@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AboutBanner.scss"
 // import { Link } from 'react-router-dom'
-import AboutBannerImg from "../../../images/about-banner.webp";
+import AboutBannerImg from "../../../images/about-banner.jpg";
 
 const AboutBanner = () => {
   return (

@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home';
 import Header from './components/main/header/Header';
 import Footer from './components/main/footer/Footer';
-import logo from "./images/collative-logo.webp";
+import logo from "./images/collative-logo.png";
 import Contact from './components/contact/Contact';
 import ScrollToTop from './scrollToTop';
 import AboutUs from './components/about-us/AboutUs';

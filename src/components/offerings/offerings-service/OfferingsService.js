@@ -1,14 +1,14 @@
 import React from "react";
 import "./OfferingsService.scss";
 // import { Link } from "react-router-dom";
-import ServiceTab from "../../../images/service-tab.webp";
-import PrivateCabinImg from "../../../images/private-cabin-service.webp";
-import SharedWorkspaceImg from "../../../images/Shared-Workspace-banner.webp";
-import ConferenceRoomsImg from "../../../images/Conference-room-img.webp";
-import InterviewRoomsImg from "../../../images/interview-rooms-banner.webp";
-import MeetingRoomsImg from "../../../images/meeting-rooms-banner.webp";
-import HotDesksImg from "../../../images/hot-desks-banner.webp";
-import EventSpacesImg from "../../../images/banner-img.webp";
+import ServiceTab from "../../../images/service-tab.jpg";
+import PrivateCabinImg from "../../../images/private-cabin-service.jpg";
+import SharedWorkspaceImg from "../../../images/Shared-Workspace-banner.jpg";
+import ConferenceRoomsImg from "../../../images/Conference-room-img.jpg";
+import InterviewRoomsImg from "../../../images/interview-rooms-banner.jpg";
+import MeetingRoomsImg from "../../../images/meeting-rooms-banner.jpg";
+import HotDesksImg from "../../../images/hot-desks-banner.jpg";
+import EventSpacesImg from "../../../images/banner-img.jpg";
 
 
 const OfferingsService = () => {
