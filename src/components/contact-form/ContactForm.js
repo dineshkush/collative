@@ -33,11 +33,11 @@ const ContactForm = () => {
       setSubmitted(true);
       setError(false);
       setFormData({
-        fullName: '',
-        email: '',
-        phone: '',
-        interest: '',
-        remarks: ''
+        fullName: "",
+        email: "",
+        phone: "",
+        interest: "",
+        remarks: "",
       });
     } catch (error) {
       console.error("Error:", error);
@@ -127,9 +127,14 @@ const ContactForm = () => {
         </div>
       </form>
 
-      {submitted && <p style={{color:'green'}}>Thank you for your submission!</p>}
-      {error && <p style={{color:'red'}}>Oops! Something went wrong. Please try again later.</p>}
-
+      {submitted && (
+        <p style={{ color: "green" }}>Thank you for your submission!</p>
+      )}
+      {error && (
+        <p style={{ color: "red" }}>
+          Oops! Something went wrong. Please try again later.
+        </p>
+      )}
     </div>
   );
 };
