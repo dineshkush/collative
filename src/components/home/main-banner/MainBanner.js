@@ -7,18 +7,22 @@ import ContactForm from "../../contact-form/ContactForm";
 
 const MainBanner = () => {
   return (
-    <section className="main_banner" style={{backgroundImage: `url(${bannerImage})`}}>
+    <section
+      className="main_banner"
+      style={{ backgroundImage: `url(${bannerImage})` }}
+    >
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-8">
             <div className="banner_content">
-              <h5>The Largest co-working space in the heart of south delhi.</h5>
+              <h5>The Largest</h5>
+              <h1>co-working space in the heart of south delhi.</h1>
             </div>
           </div>
           <div className="col-md-4">
-          <div className="banner_form">
-            <ContactForm />
-          </div>
+            <div className="banner_form">
+              <ContactForm />
+            </div>
           </div>
         </div>
       </div>

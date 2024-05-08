@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.scss";
 
 const Header = (props) => {
-
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   const handleNavbarToggle = () => {
@@ -46,7 +45,7 @@ const Header = (props) => {
               <img src={props.logo} alt="Collative" />
             </Link>
             <button
-              className={`navbar-toggler ${isNavbarOpen ? '' : 'collapsed'}`}
+              className={`navbar-toggler ${isNavbarOpen ? "" : "collapsed"}`}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -55,37 +54,58 @@ const Header = (props) => {
               aria-label="Toggle navigation"
               onClick={handleNavbarToggle}
             >
-              <i class="fa-solid fa-bars"></i>
+              <i className="fa-solid fa-bars"></i>
             </button>
             <div
-              className={`collapse navbar-collapse justify-content-end ${isNavbarOpen ? 'show' : ''}`}
+              className={`collapse navbar-collapse justify-content-end ${
+                isNavbarOpen ? "show" : ""
+              }`}
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {navbarMenu.slice(0, 3).map((navItem, index) =>
+                {navbarMenu.slice(0, 3).map((navItem, index) => (
                   <li key={index} className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to={navItem.url} onClick={handleNavbarClose}>
+                    <NavLink
+                      className="nav-link active"
+                      aria-current="page"
+                      to={navItem.url}
+                      onClick={handleNavbarClose}
+                    >
                       {navItem.name}
                     </NavLink>
                   </li>
-                )}
+                ))}
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="https://collative.in/blog/" onClick={handleNavbarClose}>
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="https://collative.in/blog/"
+                    onClick={handleNavbarClose}
+                  >
                     Blog
                   </a>
                 </li>
-                {navbarMenu.slice(4, 5).map((navItem, index) =>
+                {navbarMenu.slice(4, 5).map((navItem, index) => (
                   <li key={index} className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to={navItem.url} onClick={handleNavbarClose}>
+                    <NavLink
+                      className="nav-link active"
+                      aria-current="page"
+                      to={navItem.url}
+                      onClick={handleNavbarClose}
+                    >
                       {navItem.name}
                     </NavLink>
                   </li>
-                )}
+                ))}
               </ul>
               <div className="header_btn">
-                <Link to={`tel:${props.phone}`} className="border_btn">{props.phone}</Link>
-                <a href="/contact-us" className="white_btn">Enquire Now</a>
+                <Link to={`tel:${props.phone}`} className="border_btn">
+                  {props.phone}
+                </Link>
+                <a href="/contact-us" className="white_btn">
+                  Enquire Now
+                </a>
               </div>
             </div>
           </div>

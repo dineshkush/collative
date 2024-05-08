@@ -1,14 +1,17 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 body {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
+
 .site_btn {
     border: 1px solid #0C1420;
     padding: 10px 20px;
@@ -19,11 +22,13 @@ body {
     display: inline-block;
     transition: all 0.5s;
 }
+
 .site_btn:hover {
     border: 1px solid #0C1420;
     color: #0C1420;
     background-color: #fff;
 }
+
 .border_btn {
     border: 1px solid #0C1420;
     padding: 10px 20px;
@@ -33,6 +38,7 @@ body {
     background-color: transparent;
     display: inline-block;
 }
+
 .white_btn {
     border: 1px solid #fff;
     padding: 10px 20px;
@@ -41,43 +47,73 @@ body {
     font-size: 14px;
     background-color: #fff;
 }
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     max-width: 1120px;
 }
+
 .white_text {
     color: #fff;
 }
+
 h2 {
     font-size: 30px;
     line-height: 40px;
     font-weight: 700;
     text-transform: capitalize;
 }
+
 h3 {
     font-size: 28px;
     line-height: 38px;
     font-weight: 700;
     text-transform: capitalize;
 }
+
 .underline_text {
     text-decoration-line: underline;
 }
 
+.thank_you_sec {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.thank_you_sec img {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.thank_you_sec h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
 
 @media (max-width: 480px) {
-    body, p {
+
+    body,
+    p {
         font-size: 11px;
         line-height: 16px;
     }
+
     .site_btn {
         padding: 7px 20px 6px;
         font-size: 11px;
         line-height: 18px;
     }
+
     h2 {
         font-size: 15px;
         line-height: 18px;
     }
+
     h3 {
         font-size: 15px;
         line-height: 18px;

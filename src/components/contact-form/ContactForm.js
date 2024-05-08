@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./ContactForm.scss";
+import { useNavigate } from "react-router-dom/dist";
 
 const ContactForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -39,6 +41,7 @@ const ContactForm = () => {
         interest: "",
         remarks: "",
       });
+      navigate("/thank-you");
     } catch (error) {
       console.error("Error:", error);
       setSubmitted(false);
