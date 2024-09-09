@@ -2,8 +2,13 @@ import React from "react";
 import "./Footer.scss";
 // import footerLogo from "../../../images/collative-logo.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Footer = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const togglePopover = () => {
+    setIsOpen(!isOpen);
+  };
   const offeringsLinks = [
     {
       url: "/offerings",
@@ -68,6 +73,24 @@ const Footer = (props) => {
     {
       url: "/privacy-policy",
       name: "Privacy Policy",
+      ariaLabel: "Privacy Policy",
+    },
+  ];
+
+  const dropDownLinks = [
+    {
+      url: "/legal/membership-house-rules",
+      name: "Membership",
+      ariaLabel: "Memebership House Rule",
+    },
+    {
+      url: "/legal/guest-policy",
+      name: "Guest Policy",
+      ariaLabel: "Guset Policy",
+    },
+    {
+      url: "/legal/wireless-network-terms-of-service",
+      name: "Information Policy",
       ariaLabel: "Privacy Policy",
     },
   ];
@@ -186,6 +209,49 @@ const Footer = (props) => {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <div
+                    style={{ position: "relative", display: "inline-block" }}
+                  >
+                    {/* Clickable "Legal" text */}
+                    <p
+                      onClick={togglePopover}
+                      style={{ cursor: "pointer", marginBottom: "0" }}
+                    >
+                      Legal
+                    </p>
+
+                    {/* Popover that appears above the "Legal" text */}
+                    {isOpen && (
+                      <div
+                        style={{
+                          position: "absolute",
+                          bottom: "110%",
+                          left: "50%",
+                          transform: "translateX(-50%)",
+                          backgroundColor: "#0D1420",
+                          border: "1px solid rgba(255, 255, 255, 0.2)",
+                          boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+                          padding: "10px",
+                          zIndex: 1,
+                          marginBottom: "16px",
+                        }}
+                      >
+                        <ul
+                          style={{ listStyle: "none", margin: 0, padding: 0 }}
+                        >
+                          {dropDownLinks.map((item) => (
+                            <li key={item.url} style={{ margin: "10px 0" }}>
+                              <Link to={item.url} aria-label={item.ariaLabel}>
+                                {item.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>{" "}
+                </li>
               </ul>
             </div>
           </div>

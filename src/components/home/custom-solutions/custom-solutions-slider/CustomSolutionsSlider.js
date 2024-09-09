@@ -8,6 +8,7 @@ import MeetingRooms from "../../../../images/meeting-rooms-img.jpg";
 import ConferenceHall from "../../../../images/conference-hall-img.jpg";
 import PrivateCabin from "../../../../images/private-cabin-img.jpg";
 
+
 const CustomSolutionsSlider = () => {
   const customSolutionSlider = {
     infinite: true,

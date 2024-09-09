@@ -12,6 +12,9 @@ import AboutUs from "./components/about-us/AboutUs";
 import Offerings from "./components/offerings/Offerings";
 import PrivacyPolicy from "./components/privacy-policy/PrivacyPolicy";
 import ThankYou from "./components/ThankYou";
+import GuestPolicy from "./components/legal/GuestPolicy";
+import Membership from "./components/legal/Membership";
+import Information from "./components/legal/Information";
 
 function App() {
   const contactDetail = {
@@ -72,6 +75,18 @@ function App() {
           />
           <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
           <Route path="/thank-you" exact element={<ThankYou />} />
+          <Route path="/legal/privacy" exact element={<ThankYou />} />
+          <Route
+            path="/legal/membership-house-rules"
+            exact
+            element={<Membership/>}
+          />
+          <Route path="/legal/guest-policy" exact element={<GuestPolicy/>} />
+          <Route
+            path="/legal/wireless-network-terms-of-service"
+            exact
+            element={<Information/>}
+          />
         </Routes>
         <Footer
           phone={contactDetail.phone}
